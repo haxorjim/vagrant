@@ -1,23 +1,6 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-=begin
-ModernIE VMs
-
-config.vm.box = "modernIE/vista-ie7"
-config.vm.box = "modernIE/w7-ie8"
-config.vm.box = "modernIE/w7-ie9"
-config.vm.box = "modernIE/w7-ie10"
-config.vm.box = "modernIE/w7-ie11"
-config.vm.box = "modernIE/w8-ie10"
-config.vm.box = "modernIE/w8.1-ie11"
-config.vm.box = "modernIE/w10-edge"
-
-System Account Credentials
-Username: IEUser
-Password: Passw0rd!
-=end
-
 box_name = "win10-edge"
 
 Vagrant.configure("2") do |config|
